@@ -1,4 +1,4 @@
-reltime,datetime,iSensor,headPos.x,headPos.y,headPos.z,headPosQ,headYaw,headPitch,headRoll,headRotQ,gazeSrc.x,gazeSrc.y,gazeSrc.z,gaze_x,gaze_y,gaze_z,gazeQ,leftEyeOpen,leftEyeOpenQ,rightEyeOpen,rightEyeOpenQ,pupil,pupilQ,gaze_diff,fixation,fixation_id,duration
+reltime,datetime,iSensor,headPos.x,headPos.y,headPos.z,headPosQ,headYaw,headPitch,headRoll,headRotQ,gazeSrc.x,gazeSrc.y,gazeSrc.z,gazeDir.x,gazeDir.y,gazeDir.z,gazeQ,leftEyeOpen,leftEyeOpenQ,rightEyeOpen,rightEyeOpenQ,pupil,pupilQ,gaze_diff,fixation,fixation_id,duration
 0.001,2024/06/13 11:30:10.5209,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.02,0.01,-0.015,0.969,-0.186,0.162,0.99,10.0,1.0,9.75,1.0,3.53,0.99,,False,1,
 1.284,2024/06/13 11:30:11.8039,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.02,0.01,-0.015,0.949,-0.192,0.25,1.0,10.0,1.0,10.0,1.0,3.19,1.0,0.0904433524367601,False,1,
 1.294,2024/06/13 11:30:11.8139,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,-0.02,0.01,-0.015,0.947,-0.198,0.252,1.0,10.0,1.0,10.0,1.0,3.21,1.0,0.006633249580710806,True,2,0.4889999999999999
