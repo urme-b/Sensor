@@ -50,7 +50,11 @@ jobs:
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v6
         with:
-          python-version: "3.12"
+          # Type-check on the floor version (requires-python >=3.11), which is
+          # also what [tool.mypy] python_version targets. On 3.12 pip resolves
+          # numpy 2.5, whose stubs use a PEP 695 `type` statement that mypy
+          # rejects against a 3.11 target.
+          python-version: "3.11"
           cache: pip
       - run: pip install -r requirements-dev.txt -e .
       - run: ruff check .
